@@ -4,15 +4,15 @@
  * main - Entry point
  * Return: Always 0 (Success)
  */
-int main(void)
+void print_alphabet(void)
 {
 	char character = 'a';
 
 	while (character <= 'z')
 	{
-		putchar(character);
+		_putchar(character);
 		character++;
 	}
-	putchar('\n');
+	_putchar('\n');
 	return (0);
 }

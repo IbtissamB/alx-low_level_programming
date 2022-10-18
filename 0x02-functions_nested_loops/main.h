@@ -1,4 +1,4 @@
-#define main.h
+#define MAIN_H
 /**
  * main - Entry point
  * Return: Always 0 (Success)

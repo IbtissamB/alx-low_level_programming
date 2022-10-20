@@ -1,8 +1,5 @@
 #define MAIN_H
-/**
- * main - Entry point
- * Return: Always 0 (Success)
- */
+
 int _putchar(char c);
 void print_alphabet(void);
 void print_alphabet_x10(void);
@@ -12,3 +9,5 @@ int print_sign(int n);
 int _abs(int num);
 int print_last_digit(int num);
 void jack_bauer(void);
+void times_table(void);
+int add(int x, int y);

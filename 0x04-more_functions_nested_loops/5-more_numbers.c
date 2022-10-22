@@ -2,9 +2,7 @@
 
 /**
   * more_numbers - print digits 0 through 9, 10 times
-  * except 2 and 4
   */
-
 void more_numbers(void)
 {
 	int i, j;

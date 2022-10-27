@@ -5,9 +5,7 @@
  * @dest: first input string
  * @src: second input string
  * @n: number of butes to be used
- *
- * Description: use at most n bytes from src
- * Return: returns concatenated string
+ * Return: dest
  */
 
 char *_strncat(char *dest, char *src, int n)
@@ -20,7 +18,6 @@ char *_strncat(char *dest, char *src, int n)
 	{
 		len++;
 	}
-	_putchar(len);
 	while (src[i] != 0 && i < n)
 	{
 		dest[len] = src[i];
